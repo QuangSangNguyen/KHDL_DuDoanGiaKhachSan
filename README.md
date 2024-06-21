@@ -1,15 +1,15 @@
 1. Tree folder
     - clean data
-        + hotel_clean.csv: Data after cleaning
+        + clean_data_train.csv: Data after cleaning for training
+        + clean_data_test.csv: Data after cleaning for testing
     - raw data
-        + hotel_raw: Raw data from crawling
-    - utils
-        + Location.py: Class to convert from address to latitude, longtitude
-        + map.html: HTML file contains map of hotels in Danang
-        + map.png: Map of hotels in Danang
-        + utils.py: Highlight location of hotels in Danang on map by their price
-    - crawl_data.ipynb: Data crawler
-    - visualization_data.ipynb: EDA the collected data
+        + raw_data_train: Raw data from crawling for training
+        + raw_data_testing: Raw data from crawling for testing
+    - code
+        + crawl.py: Data crawler
+        + EDA.ipynb: EDA the collected data
+        + regression.ipynb: Feature engineering and modeling for regression task
+        + classification.ipynb: Feature engineering and modeling for classification task
 2. Requirements
     - pandas
     - numpy
@@ -19,18 +19,16 @@
     - scikit-learn
     - requests
     - selenium
-    - json
     - BeautifulSoup4
     - unidecode
     - csv
-    - tqdm
-    - folium
     - warnings
 3. Running instruction
-    - crawl_data.ipynb
+    - crawl.py
+        + run code
+    - EDA.ipynb
         + press run all
-    - utils.py
-        + press run code
-    - visualization_data.ipynb
+    - regression.ipynb
+        + press run all4
+    - classification.ipynb
         + press run all
-    
