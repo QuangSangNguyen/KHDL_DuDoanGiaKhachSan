@@ -8,7 +8,7 @@ To address this issue, our team has applied the knowledge learned from the Data 
 
 Our team's solution is illustrated in the block diagram below:
 
-![Pipeline Diagram](images\pipeline.png)
+![Pipeline Diagram](pipeline.png)
 
 *Figure 1: Program Pipelines*
 
