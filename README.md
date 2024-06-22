@@ -1,3 +1,17 @@
+# Price prediction and hotel room classification in Danang
+
+## Overview
+
+Nowadays, with the development of the tourism industry in the city, the number of tourists visiting is increasing, leading to a growing demand for hotels. Along with that, the number of hotels in the city is also increasing to meet the rapidly expanding market. However, setting appropriate prices that match the quality of hotels and targeting the right customers is not an easy task for investors.
+
+To address this issue, our team has applied the knowledge learned from the Data Science course to build models for predicting prices and classifying room categories using data collected from the famous travel website Booking.com.
+
+Our team's solution is illustrated in the block diagram below:
+
+![Pipeline Diagram](images\pipeline.png)
+
+*Figure 1: Program Pipelines*
+
 1. Tree folder
     - clean data
         + clean_data_train.csv: Data after cleaning for training
